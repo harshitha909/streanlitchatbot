@@ -4,7 +4,7 @@ api_key=st.secrets["open_keys"]
 with st.sidebar:
     openai_api_key=st.text_input("OpenAI API Key",key="open_keys",type="password")
 st.title("🚩 CHATBOT")  
-st.caption("🚀A streamlit chatbot done by Manogna")   
+st.caption("🚀A streamlit chatbot done by Harshitha")   
 if "messages" not in st.session_state:
     st.session_state["messages"]=[{"role":"assistant","content":"How can I help you?"}]
 for msg in st.session_state.messages:
